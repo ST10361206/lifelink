@@ -1,0 +1,14 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    php -v
+  displayName: 'Check PHP version'
+
+- script: |
+    find . -type f -name "*.php" -not -path "./vendor/*" -print0 | xargs -0 -r -n1 php -l
+  displayName: 'Check PHP syntax'
