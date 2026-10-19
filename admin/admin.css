@@ -1,0 +1,39 @@
+:root{--navy:#14243e;--red:#b9102c;--text:#253248;--muted:#66758a;--border:#e4e9ef}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#f5f7fb}a{color:inherit}.login-wrap{min-height:100vh;display:grid;place-items:center;padding:24px}.login-card{background:white;border:1px solid var(--border);border-radius:18px;box-shadow:0 12px 40px #14243e12;padding:38px;width:min(100%,450px)}.brand{font-size:23px;font-weight:800;text-decoration:none;color:var(--navy)}.brand span{color:var(--red)}h1{font-size:32px;margin:25px 0 10px;color:var(--navy)}p{color:var(--muted);line-height:1.65}label{display:block;font-weight:600;margin:18px 0}input{display:block;width:100%;margin-top:8px;padding:13px;border:1px solid #cbd5e1;border-radius:8px;font:inherit}input:focus{outline:2px solid #a9bedb}button{background:var(--red);color:white;border:0;border-radius:8px;padding:14px 22px;font-weight:700;cursor:pointer;width:100%;font-size:16px}button:hover{background:#930b23}.back{display:inline-block;margin-top:22px;font-size:14px}.error,.success{padding:12px;border-radius:8px;margin:14px 0}.error{background:#fff0f1;color:#a01325}.success{background:#ecf9ef;color:#166534}.top{background:var(--navy);color:white}.top-inner{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:22px}.top .brand{color:white}.top nav{display:flex;gap:22px;font-size:14px}.content{max-width:1100px;margin:auto;padding:42px 22px}.eyebrow{color:var(--red);font-size:12px;letter-spacing:1.8px;font-weight:800}.intro h1{margin:8px 0}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:32px 0}.stat,.panel{background:white;border:1px solid var(--border);border-radius:14px;box-shadow:0 4px 20px #14243e08}.stat{padding:25px}.stat span{color:var(--muted);font-size:14px}.stat strong{display:block;font-size:36px;color:var(--navy);margin-top:14px}.panel{margin:20px 0;padding:24px}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:15px}.panel h2{font-size:20px;color:var(--navy)}.panel-head span{color:var(--muted);font-size:13px}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:650px;text-align:left}th,td{padding:15px 10px;border-bottom:1px solid var(--border);font-size:14px}th{color:var(--muted)}.pill{padding:5px 9px;border-radius:20px;background:#f0f2f6;font-size:12px}.pill.pending{background:#fff3d5;color:#795000}.pill.confirmed{background:#e6f7ec;color:#17653b}.pill.cancelled{background:#fce8ea;color:#a20d26}.empty{padding:15px 0}@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}.panel-head{display:block}.top-inner{padding:18px}.top nav{gap:10px}}@media(max-width:420px){.stats{grid-template-columns:1fr}.login-card{padding:25px}}
+
+.status-filter{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.status-filter label{margin:0;font-size:13px}.status-filter select{padding:9px;border:1px solid var(--border);border-radius:8px;background:white}.action-row{display:flex;gap:7px}.action-row form{margin:0}.small-btn{width:auto;padding:9px 12px;font-size:12px;white-space:nowrap}.confirm-btn{background:#16794b}.confirm-btn:hover{background:#105a37}.cancel-btn{background:#b9102c}.cell-detail{font-size:12px;color:var(--muted);margin-top:4px}.panel-head a{font-size:13px;color:var(--red)}
+.donor-search{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.donor-search label{font-size:13px;margin:0}.donor-search input{width:210px;margin:0;padding:10px}.donor-search a,.view-link{color:var(--red);font-size:13px}.donor-search .small-btn{width:auto;padding:10px 14px}.top nav{flex-wrap:wrap}@media(max-width:700px){.donor-search{margin-top:12px}.donor-search input{width:100%}}
+
+.report-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.report-btn {
+    display: inline-block;
+    background: #bd183c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .report-btn:hover {
+        background: #8f102d;
+        color: white;
+    }
+
+.print-btn {
+    background: #142438;
+}
+
+@media print {
+    .report-actions {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+# Local database configuration
+/includes/db.php
+
+# Local environment files
+.env
+.env.*
+
+# Temporary files
+*.log
+# Visual Studio temporary files
+.vs/
+**/.vs/
+
+# Visual Studio user settings
+*.suo
+*.user

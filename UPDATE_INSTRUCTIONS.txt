@@ -1,0 +1,22 @@
+LIFELINK - WEBSITE DESIGN UPDATE
+
+1. Stop editing files in Visual Studio 2022 for a moment.
+2. Make a backup copy of your current C:\xampp\htdocs\lifelink folder.
+3. Extract the downloaded LifeLink_website_updated.zip.
+4. Open the extracted lifelink folder. Copy its CONTENTS (all files and folders).
+5. Paste them into C:\xampp\htdocs\lifelink and choose REPLACE when Windows asks.
+   Do not place a second lifelink folder inside the existing lifelink folder.
+6. Open Visual Studio 2022 > File > Open > Folder > C:\xampp\htdocs\lifelink.
+7. Start Apache and MySQL in XAMPP.
+8. In your browser, visit http://127.0.0.1/lifelink/ and press Ctrl+F5 to refresh CSS.
+9. Test Home, About Us, Donation Centres, Contact, Login, and Register.
+
+IMPORTANT
+- No database import is required for this design update.
+- Existing login, registration, appointments and dashboard files are preserved.
+- Donation sites on the public Centres page are real published locations, but they
+  are not connected to the LifeLink appointment database. Verify before visiting.
+- Contact form opens an email draft with no recipient; the project team must add
+  its own address later. It does not save or send contact messages.
+- Photos are loaded from Unsplash and require internet access.
+- This is a student prototype, not a live medical service.
